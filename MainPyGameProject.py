@@ -243,14 +243,14 @@ class Invader:
     def load_images(self):
         # Загружаем все нужные нам изображения
         # И создаем группы со спрайтами
-        Player.image = load_image("data/player.png")
-        Shot.image = load_image("data/shot.png")
-        Alien.images = split_image(load_image("data/alien.png"), 2)
-        UFO.images = split_image(load_image("data/ufo.png"), 2)
-        Beam.image = load_image("data/beam.png")
-        Wall.image = load_image("data/wall.png")
-        Explosion.images = split_image(load_image("data/explosion.png"), 16)
-        ExplosionWall.images = split_image(load_image("data/explosion2.png"), 16)
+        Player.image = load_image("Data/player.png")
+        Shot.image = load_image("Data/shot.png")
+        Alien.images = split_image(load_image("Data/alien.png"), 2)
+        UFO.images = split_image(load_image("Data/ufo.png"), 2)
+        Beam.image = load_image("Data/beam.png")
+        Wall.image = load_image("Data/wall.png")
+        Explosion.images = split_image(load_image("Data/explosion.png"), 16)
+        ExplosionWall.images = split_image(load_image("Data/explosion2.png"), 16)
 
     def load_sounds(self):
         # Загружаем звуки
@@ -464,7 +464,7 @@ def split_image(image, n):
 
 def load_sound(filename):
     # Загружаем звук
-    filename = os.path.join("data", filename)
+    filename = os.path.join("Data", filename)
     return pygame.mixer.Sound(filename)
 
 
