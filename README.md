@@ -1,5 +1,5 @@
 # ShumpGame
 Space Invader Game.
 Data - sprites and sounds
-Other files - .py files and scripts for game
+.py file - script game file
 Enjoy it.
